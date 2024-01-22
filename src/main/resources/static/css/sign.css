@@ -1,0 +1,41 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 700px;
+}
+
+.btn-primary {
+    background-color: #5700c9;
+    border-color: #5700c9;
+}
+
+.btn-primary:hover {
+    background-color: #4a018c;
+    border-color: #4a018c;
+}
+
+.form-container {
+    background-color: #5700c9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #fff;
+}
+
+.form-label {
+    color: #fff;
+}
+
+.form-control {
+    border-radius: 8px;
+}
+
+.btn-dark:hover {
+    filter: brightness(90%);
+}
+
+.mt-3 {
+    margin-top: 1rem;
+}

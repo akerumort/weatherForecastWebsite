@@ -1,0 +1,66 @@
+.darkTheme {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.darkTheme .form-container {
+    background-color: #1a1a1a;
+}
+
+.darkTheme.profile-container {
+    border-radius: 15px;
+    padding: 20px;
+    margin: auto;
+    width: 900px;
+}
+
+.darkTheme .table th,
+.darkTheme .table td,
+.darkTheme .table tr,
+.darkTheme .btn-dark,
+.darkTheme .card-title,
+.darkTheme .form-label,
+.darkTheme .text-light {
+    color: white;
+}
+
+.darkTheme.panel-container {
+    border-radius: 15px;
+    padding: 20px;
+    margin: auto;
+    width: 1200px;
+}
+
+.darkTheme #clock {
+    color: white;
+}
+
+.darkTheme .btn-light {
+    color: #030303;
+}
+
+.darkTheme .card-title,
+.darkTheme .form-label,
+.darkTheme .text-light {
+    color: white;
+}
+
+.darkTheme .card {
+    background-color: #343434;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.darkTheme .weather-card {
+    background-color: #343434;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.darkTheme .weather-form-container {
+    background-color: #343434;
+    border-radius: 15px;
+    padding: 20px;
+    margin: auto;
+    width: 700px;
+}

@@ -1,0 +1,36 @@
+.lightTheme {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.lightTheme.form-container {
+    background-color: #ffffff;
+}
+
+.lightTheme.profile-container {
+    background-color: #5700c9;
+    border-radius: 15px;
+    padding: 20px;
+    margin: auto;
+    width: 900px;
+}
+
+.lightTheme .table th,
+.lightTheme .table td,
+.lightTheme .table tr,
+.lightTheme .btn-dark,
+.lightTheme .card-title,
+.lightTheme .form-label,
+.lightTheme .text-light {
+    color: black;
+}
+
+.lightTheme.panel-container {
+    background-color: #5700c9;
+    border-radius: 15px;
+    padding: 20px;
+    margin: auto;
+    width: 1200px;
+}
+
+

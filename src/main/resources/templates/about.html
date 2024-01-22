@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title th:text="${title}"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+
+</head>
+
+<body>
+<header th:insert="blocks/header :: header"> </header>
+
+<div class="container mt-5">
+    <h1 th:text="${title}" > </h1>
+    <div class="about-card mt-3" style="background: linear-gradient(to right, #2c0059, #5700c9);">
+        <div class="about-card-body" style="font-family: 'Courier New', monospace; color: #fff; padding: 20px;">
+            <h2 style="color: #fff; text-align: center; font-weight: bold; margin-bottom: 20px;">Добро пожаловать на Weather Forecast!</h2>
+            <p style="text-align: center; font-size: 18px; margin-bottom: 20px;">
+                <strong>Цель портала:</strong> <br>
+                Weather Forecast - информативный ресурс, представляющий собой прогноз с погоды с удобным и сдержанным дизайном. Цель данного портала - обеспечить быстрый доступ к
+                актуальным прогнозам погоды. И не только!
+            </p>
+            <div style="text-align: center; margin: 20px 0;">
+                <strong style="font-size: 20px;">Что Вы найдете сайте:</strong>
+                <ul style="list-style-type: none; padding: 0; margin: 10px 0;">
+                    <li style="background-color: #390086; padding: 10px; border-radius: 5px; margin-bottom: 5px;">Актуальный прогноз погоды: актуальные прогнозы могут не только согревать душу, но ещё и предупреждать от холодной погоды. Берегите себя и одевайтесь теплее!</li>
+                    <li style="background-color: #390086; padding: 10px; border-radius: 5px; margin-bottom: 5px;">Информативный блог: интерактивная страница с множеством интересных записей, которые подойдут абсолютно для каждого. Возможно, и Вы здесь найдете что-то полезное и интересное для себя.</li>
+                </ul>
+            </div>
+            <p style="text-align: center; font-size: 18px; margin-bottom: 20px;">
+                <strong>Как связаться с нами:</strong>  <br>
+                Обратная связь от пользователей особенно важна для развития проекта. Если у Вас есть вопросы, предложения, замечания — не стесняйтесь выходить на связь и по электронной почте и предлагать свои идеи и вносить конструктивную критику. <br> Почта для связи: <a href="mailto:weatherforecasthelper@gmail.com" style="color: #fff; text-decoration: underline;">weatherforecasthelper@gmail.com</a>.
+            </p>
+            <div style="text-align: center; margin: 20px 0;">
+                Спасибо за Ваш выбор! Будьте в курсе изменений и наслаждайтесь времяпровождением на данном портале!
+                Администрация проекта желает Вам только ясной и теплой погоды в суровые и серые будни!
+            </div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <h2 class="text-center">Над проектом работал:</h2>
+        <div class="row justify-content-center mt-3">
+            <div class="col-md-3 text-center mb-4">
+                <img src="/uploads/developer.jpg" alt="Developer" class="img-fluid rounded-circle mb-2" style="width: 300px; height: 300px;">
+                <p class="text-muted font-italic"> Иван "akerumort" Родионов, <br> г. Пенза </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer th:insert="blocks/footer :: footer"> </footer>
+</body>
+</html>

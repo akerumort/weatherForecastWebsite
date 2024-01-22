@@ -1,0 +1,31 @@
+.weather-card {
+    background-color: #5700c9;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.weather-card-body {
+    text-align: center;
+}
+
+.weather-description {
+    font-weight: bold;
+}
+
+.weather-form-container {
+    background-color: #5700c9;
+    border-radius: 15px;
+    padding: 20px;
+    margin: auto;
+    width: 700px;
+}
+
+.btn-primary {
+    background-color: #5700c9;
+    border-color: #5700c9;
+}
+
+.btn-primary:hover {
+    background-color: #4a018c;
+    border-color: #4a018c;
+}
