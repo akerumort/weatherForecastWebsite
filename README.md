@@ -40,6 +40,11 @@ spring.mail.username=youremail@gmail.com spring.mail.password=yourpasswordkey
 
 <p>5. Запустить исполняемый файл WeatherForecastApplication.java</p>
 
+<h2>📃 Документация: </h2>
+<a href="https://akerumort.github.io/weather_forecast_site/"> *Доступно по ссылке (кликабельно)* </a>
+
+
+
 <h2>💻 Использованные технологии: </h2>
 
 *   Java 17
