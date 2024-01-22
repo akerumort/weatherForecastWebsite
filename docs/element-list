@@ -1,0 +1,7 @@
+com.webprog.weatherForecast
+com.webprog.weatherForecast.configs
+com.webprog.weatherForecast.controllers
+com.webprog.weatherForecast.models
+com.webprog.weatherForecast.models.enums
+com.webprog.weatherForecast.repos
+com.webprog.weatherForecast.services
