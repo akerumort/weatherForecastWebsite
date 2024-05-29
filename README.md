@@ -1,6 +1,6 @@
-<h1 align="center" id="title">weather_forecast_site</h1>
+<h1 align="center" id="title">weatherForecastWebsite</h1>
 
-<p align="center"><img src="https://socialify.git.ci/akerumort/weather_forecast_site/image?description=1&font=Raleway&language=1&name=1&owner=1&pattern=Circuit%20Board&theme=Dark"></p>
+<p align="center"><img src="https://socialify.git.ci/akerumort/weatherForecastWebsite/image?description=1&font=Raleway&language=1&name=1&owner=1&pattern=Circuit%20Board&theme=Dark"></p>
 
 <p id="description">Данный сайт представляет собой прогноз погоды с возможностью регистрации на нём. Доступно 3 раздела: главная страница с погодой, блог с новостями, раздел "О нас". Для авторизированных пользователей доступен личный кабинет, функционал которого меняется в зависимости от роли пользователя (Пользователь, Админ, Модер).</p>
 
