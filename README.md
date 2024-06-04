@@ -48,9 +48,11 @@ spring.mail.username=youremail@gmail.com spring.mail.password=yourpasswordkey
 <h2>💻 Использованные технологии: </h2>
 
 *   Java 17
+*   Maven
 *   Spring Boot (версия 2.5.3)
 *   Spring Security
 *   MySQL
+*   Openweather API
   
 <h2>🛡️ Лицензия / License: </h2>
 
